@@ -1,0 +1,90 @@
+{
+  "version": 1,
+  "profile": "published",
+  "scope": "Tracked visible presentation text, checked presentation results, definitions and selected methods only. This dated publication subset does not include speaker notes, private reports, underlying measurements, chart pixels, live prices or executable quotes.",
+  "max_source_bytes": 1000000,
+  "chunk_chars": 2600,
+  "excluded": [
+    "speaker notes, rehearsal material and presentation commentary",
+    "private/full-workspace corpus",
+    "raw measurements and databases",
+    "private assessment PDF",
+    "measurement-derived authoring snapshots",
+    "binary presentation files and chart pixels",
+    "credentials, index and runtime directories"
+  ],
+  "sources": [
+    {
+      "path": "results/presentation/slide_text.md",
+      "format": "markdown",
+      "priority": 1.8,
+      "status": "published_visible_slides"
+    },
+    {
+      "path": "results/presentation/results_summary.json",
+      "format": "json",
+      "priority": 1.7,
+      "status": "published_checked_results"
+    },
+    {
+      "path": "presentation/README.md",
+      "format": "markdown",
+      "priority": 1.1,
+      "status": "publication_navigation"
+    },
+    {
+      "path": "presentation/sources.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "published_source_register"
+    },
+    {
+      "path": "docs/data_clarifications.md",
+      "format": "markdown",
+      "priority": 1.6,
+      "status": "definitions"
+    },
+    {
+      "path": "scripts/audit_data.md",
+      "format": "markdown",
+      "priority": 1.2,
+      "status": "methods"
+    },
+    {
+      "path": "scripts/clean_data.md",
+      "format": "markdown",
+      "priority": 1.3,
+      "status": "methods"
+    },
+    {
+      "path": "scripts/build_hourly_panel.md",
+      "format": "markdown",
+      "priority": 1.3,
+      "status": "methods"
+    },
+    {
+      "path": "scripts/analyze_flowgates.md",
+      "format": "markdown",
+      "priority": 1.2,
+      "status": "methods"
+    },
+    {
+      "path": "results/new_data_review/decisions/methods.md",
+      "format": "markdown",
+      "priority": 1.2,
+      "status": "methods"
+    },
+    {
+      "path": "results/new_data_review/fundamentals/methods.md",
+      "format": "markdown",
+      "priority": 1.2,
+      "status": "methods"
+    },
+    {
+      "path": "results/new_data_review/generation/methods.md",
+      "format": "markdown",
+      "priority": 1.2,
+      "status": "methods"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "publication_date": "2026-10-15",
+  "slides": 37,
+  "native_charts": 22,
+  "embedded_chart_workbooks": 22,
+  "native_tables": 15,
+  "scope": "Current presentation, authoring code, source references and displayed aggregate results. Private inputs and full research remain external.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 47,
+      "sha256": "c58a27c7e77035d5ee8b4ef17863dded5fc4bf95be55373edbb3bae06bacef18"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1295,
+      "sha256": "5e4b3120705ad2706583a9ccb784162b7a88f994fcde6662dc6fa12697b54067"
+    },
+    {
+      "path": "sources.md",
+      "bytes": 3557,
+      "sha256": "8b53fd55eea91f67777eb4caed6e5e2672a13e6224472fc405644ca25c6fd2d5"
+    },
+    {
+      "path": "PJM_GBE_Assessment.pptx",
+      "bytes": 212867,
+      "sha256": "6734c222bfe831f2ee21ebafd59b2805895021b4bef5372b0b8fc3c900749570"
+    },
+    {
+      "path": "PJM_GBE_Assessment.pdf",
+      "bytes": 8197673,
+      "sha256": "d705c604f038b576242663cba05c652c0044c1a8d4b188bb308aa32cbc297ddf"
+    },
+    {
+      "path": "source/build_deck.mjs",
+      "bytes": 2653,
+      "sha256": "2090674e3ef3d6e6be50d0ed380ee6423f31d7cdc7b5107c6fe3e8e6d6deb439"
+    },
+    {
+      "path": "source/build_pdf.py",
+      "bytes": 846,
+      "sha256": "7d92e55c66d0b35f7f8b55c0db8bc58af868fbbf65bc9c65c95cfda3b3d5ac18"
+    },
+    {
+      "path": "source/deck_helpers.mjs",
+      "bytes": 4141,
+      "sha256": "597f5e2044bfd76ecdafcfd6e7946cc7dd1660116dde7d222e1469466f3b6425"
+    },
+    {
+      "path": "source/finalize.mjs",
+      "bytes": 2035,
+      "sha256": "f1e94d6eb5b96b3eb98ab55fc86c5e1972244910d6c18cdc547621d736f9c882"
+    },
+    {
+      "path": "source/input_manifest.json",
+      "bytes": 315,
+      "sha256": "375cc6731f27d049cbda439ca4fde1ab8d57ee0c0e04d92e1fc8c2b4a136b4f4"
+    },
+    {
+      "path": "source/render_final.mjs",
+      "bytes": 803,
+      "sha256": "cb0cdda1683f257caa845b42711b2e3a17f0441cbe6be299e6107b91942ba826"
+    },
+    {
+      "path": "source/strip_notes.py",
+      "bytes": 2210,
+      "sha256": "07e130a8951ebeec1459ae3d54d02a0417fbe60537657e532d51fafe4b020a6d"
+    }
+  ]
+}

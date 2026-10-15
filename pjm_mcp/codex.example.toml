@@ -1,0 +1,8 @@
+# Copy this table into your MCP client configuration and replace the absolute path.
+# Forward the key from the launching environment; no credential belongs in this file.
+[mcp_servers.pjm]
+command = "uv"
+args = ["run", "--no-sync", "--project", "/ABSOLUTE/PATH/pjm_mcp", "pjm-mcp"]
+env_vars = ["PJM_API_KEY", "PJM_REQUESTS_PER_MINUTE"]
+startup_timeout_sec = 20
+tool_timeout_sec = 180

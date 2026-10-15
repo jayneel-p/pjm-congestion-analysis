@@ -1,0 +1,28 @@
+[project]
+name = "pjm-congestion-analysis"
+version = "0.1.0"
+description = "Analysis of three anonymized PJM transmission constraints"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pandas>=2.2",
+    "numpy>=2.0",
+    "scipy>=1.14",
+    "matplotlib>=3.9",
+    "scikit-learn>=1.9",
+    "xgboost>=3.4",
+    "networkx>=3.7",
+]
+
+[dependency-groups]
+dev = ["ruff>=0.9"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/consolidate_report.py" = ["E501"]  # Embedded report prose and HTML.

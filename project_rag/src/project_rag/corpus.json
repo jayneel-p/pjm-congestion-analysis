@@ -1,0 +1,336 @@
+{
+  "version": 1,
+  "max_source_bytes": 30000000,
+  "chunk_chars": 2600,
+  "excluded": [
+    "data/raw",
+    "data/pjm.sqlite",
+    "references/private",
+    "credential files",
+    "runtime directories",
+    "archived/predecessor reports",
+    "complete textbook PDFs"
+  ],
+  "sources": [
+    {
+      "path": "docs/knowledge/current-evidence.md",
+      "format": "markdown",
+      "priority": 1.8,
+      "status": "current_summary"
+    },
+    {
+      "path": "docs/data_clarifications.md",
+      "format": "markdown",
+      "priority": 1.6,
+      "status": "definitions"
+    },
+    {
+      "path": "README.md",
+      "format": "markdown",
+      "priority": 1.2,
+      "status": "navigation"
+    },
+    {
+      "path": "AGENTS.md",
+      "format": "markdown",
+      "priority": 1.2,
+      "status": "definitions"
+    },
+    {
+      "path": "data/README.md",
+      "format": "markdown",
+      "priority": 1.2,
+      "status": "navigation"
+    },
+    {
+      "path": "docs/knowledge/README.md",
+      "format": "markdown",
+      "priority": 1.2,
+      "status": "navigation"
+    },
+    {
+      "path": "docs/knowledge/uncertainty-textbook.md",
+      "format": "markdown",
+      "priority": 1.2,
+      "status": "definitions"
+    },
+    {
+      "path": "docs/knowledge/presentation-outline.md",
+      "format": "markdown",
+      "priority": 1.2,
+      "status": "definitions"
+    },
+    {
+      "path": "docs/references.md",
+      "format": "markdown",
+      "priority": 1.2,
+      "status": "definitions"
+    },
+    {
+      "path": "scripts/audit_data.md",
+      "format": "markdown",
+      "priority": 1.1,
+      "status": "methods"
+    },
+    {
+      "path": "scripts/clean_data.md",
+      "format": "markdown",
+      "priority": 1.1,
+      "status": "methods"
+    },
+    {
+      "path": "scripts/build_hourly_panel.md",
+      "format": "markdown",
+      "priority": 1.1,
+      "status": "methods"
+    },
+    {
+      "path": "scripts/build_database.md",
+      "format": "markdown",
+      "priority": 1.1,
+      "status": "methods"
+    },
+    {
+      "path": "scripts/analyze_flowgates.md",
+      "format": "markdown",
+      "priority": 1.1,
+      "status": "methods"
+    },
+    {
+      "path": "scripts/consolidate_report.md",
+      "format": "markdown",
+      "priority": 1.1,
+      "status": "methods"
+    },
+    {
+      "path": "results/new_data_review/methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/new_data_review/fundamentals/methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/new_data_review/constraints/methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/new_data_review/forecasts/methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/new_data_review/decisions/methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/new_data_review/trading/methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/new_data_review/generation/methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/new_data_review/chart_revision.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/weather_research/methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/weather_research/ev_review/methods.md",
+      "format": "markdown",
+      "priority": 1.3,
+      "status": "methods"
+    },
+    {
+      "path": "results/weather_research/ev_review/policy_methods.md",
+      "format": "markdown",
+      "priority": 1.3,
+      "status": "methods"
+    },
+    {
+      "path": "results/weather_research/correlations/methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/assessment_deck/shadow_methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/assessment_deck/speaker_script_methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/trade_thesis_review/methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/b_trade_research/methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/b_trade_research/signal_methods.md",
+      "format": "markdown",
+      "priority": 1.0,
+      "status": "methods"
+    },
+    {
+      "path": "results/base_case/adversarial_review.md",
+      "format": "markdown",
+      "priority": 0.95,
+      "status": "review"
+    },
+    {
+      "path": "results/base_case/case_study_review.md",
+      "format": "markdown",
+      "priority": 0.95,
+      "status": "review"
+    },
+    {
+      "path": "results/base_case/brief_audit.md",
+      "format": "markdown",
+      "priority": 0.95,
+      "status": "review"
+    },
+    {
+      "path": "results/short_case/assessment_audit.md",
+      "format": "markdown",
+      "priority": 0.95,
+      "status": "review"
+    },
+    {
+      "path": "results/trade_thesis_review/review.md",
+      "format": "markdown",
+      "priority": 0.95,
+      "status": "review"
+    },
+    {
+      "path": "results/b_trade_research/signal_review.md",
+      "format": "markdown",
+      "priority": 0.95,
+      "status": "review"
+    },
+    {
+      "path": "results/assessment_deck/qa/shadow_price_link_review.md",
+      "format": "markdown",
+      "priority": 0.95,
+      "status": "review"
+    },
+    {
+      "path": "results/base_case/report.html",
+      "format": "html",
+      "priority": 0.9,
+      "status": "supporting_report"
+    },
+    {
+      "path": "results/short_case/report.html",
+      "format": "html",
+      "priority": 1.1,
+      "status": "learning_report"
+    },
+    {
+      "path": "results/weather_research/report.html",
+      "format": "html",
+      "priority": 1.4,
+      "status": "current_report"
+    },
+    {
+      "path": "results/assessment_deck/speaker_script.tex",
+      "format": "latex_document",
+      "priority": 1.1,
+      "status": "presentation"
+    },
+    {
+      "path": "results/assessment_deck/assessment.tex",
+      "format": "latex_notes",
+      "priority": 1.1,
+      "status": "presentation"
+    },
+    {
+      "path": "results/base_case/story_cards.json",
+      "format": "json",
+      "priority": 0.75,
+      "status": "historical_support",
+      "json_paths": [
+        "shared_background",
+        "gate_cards"
+      ]
+    },
+    {
+      "path": "results/base_case/summary.json",
+      "format": "json",
+      "priority": 0.9,
+      "status": "summary",
+      "json_paths": [
+        "sample",
+        "gates"
+      ]
+    },
+    {
+      "path": "references/analysis_sources.json",
+      "format": "sources",
+      "priority": 1.05,
+      "status": "source_metadata"
+    },
+    {
+      "path": "results/short_case/tables/b_matched_support.csv",
+      "format": "csv",
+      "priority": 1.0,
+      "status": "table"
+    },
+    {
+      "path": "results/short_case/tables/density_metrics.csv",
+      "format": "csv",
+      "priority": 1.0,
+      "status": "table"
+    },
+    {
+      "path": "results/new_data_review/decisions/tables/scores.csv",
+      "format": "csv",
+      "priority": 1.0,
+      "status": "table"
+    },
+    {
+      "path": "results/new_data_review/generation/tables/gate_annual.csv",
+      "format": "csv",
+      "priority": 1.0,
+      "status": "table"
+    },
+    {
+      "path": "results/weather_research/ev_review/policy_selection.csv",
+      "format": "csv",
+      "priority": 1.0,
+      "status": "table"
+    }
+  ]
+}

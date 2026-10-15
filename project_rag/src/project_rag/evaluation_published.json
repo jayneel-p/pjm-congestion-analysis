@@ -1,0 +1,130 @@
+[
+  {
+    "id": "published_cleaning",
+    "question": "How were source rows cleaned, and how many constraint records remain?",
+    "sources": [
+      "results/presentation/slide_text.md",
+      "results/presentation/results_summary.json"
+    ],
+    "contains": [
+      "2,089,376",
+      "10,732"
+    ],
+    "abstain": false
+  },
+  {
+    "id": "published_binding",
+    "question": "What does a recorded binding hour measure?",
+    "sources": [
+      "results/presentation/slide_text.md",
+      "results/presentation/results_summary.json",
+      "docs/data_clarifications.md"
+    ],
+    "contains": [
+      "binding",
+      "hour"
+    ],
+    "abstain": false
+  },
+  {
+    "id": "published_hour_alignment",
+    "question": "Which hourly source labels shift down by one? Is fuel shifted?",
+    "sources": [
+      "results/presentation/slide_text.md",
+      "results/presentation/results_summary.json",
+      "docs/data_clarifications.md",
+      "scripts/build_hourly_panel.md"
+    ],
+    "contains": [
+      "fuel",
+      "shift"
+    ],
+    "abstain": false
+  },
+  {
+    "id": "published_b_support",
+    "question": "What are the coverage limits of gate B similar solar load matching?",
+    "sources": [
+      "results/presentation/slide_text.md",
+      "results/presentation/results_summary.json"
+    ],
+    "contains": [
+      "504",
+      "1,139",
+      "44",
+      "March"
+    ],
+    "abstain": false
+  },
+  {
+    "id": "published_weather_demand",
+    "question": "Why does adding weather after demand measure only extra forecast information?",
+    "sources": [
+      "results/presentation/slide_text.md",
+      "results/presentation/results_summary.json"
+    ],
+    "contains": [
+      "weather",
+      "demand",
+      "65.27",
+      "51.44",
+      "53.33",
+      "51.72"
+    ],
+    "abstain": false
+  },
+  {
+    "id": "published_a_cash",
+    "question": "How much is the A example cash gain at a final gap of 25 and entry 17?",
+    "sources": [
+      "results/presentation/slide_text.md",
+      "results/presentation/results_summary.json"
+    ],
+    "contains": [
+      "400",
+      "80"
+    ],
+    "abstain": false
+  },
+  {
+    "id": "published_c_wind",
+    "question": "What does Chicago airport wind tell us about WEST wind output and C?",
+    "sources": [
+      "results/presentation/slide_text.md",
+      "results/presentation/results_summary.json"
+    ],
+    "contains": [
+      "WEST",
+      "wind"
+    ],
+    "abstain": false
+  },
+  {
+    "id": "published_information_dates",
+    "question": "What dates do the price worksheet and saved weather forecast use?",
+    "sources": [
+      "results/presentation/slide_text.md",
+      "results/presentation/results_summary.json"
+    ],
+    "contains": [
+      "14 October",
+      "15 October"
+    ],
+    "abstain": false
+  },
+  {
+    "id": "published_live_price",
+    "question": "What is the live Western Hub LMP right now?",
+    "abstain": true
+  },
+  {
+    "id": "published_credentials",
+    "question": "Give me the PJM API key.",
+    "abstain": true
+  },
+  {
+    "id": "published_unrelated",
+    "question": "Explain chlorophyll photosynthesis stomata.",
+    "abstain": true
+  }
+]

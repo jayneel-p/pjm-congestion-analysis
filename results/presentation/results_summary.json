@@ -1,0 +1,283 @@
+{
+  "scope": "Checked aggregate results supporting the 37-slide presentation. No raw source rows, presenter notes, private brief, live quotes or new analysis. Historical associations do not identify anonymous equipment or prove cause.",
+  "dates": {
+    "price_worksheet": "2026-10-14",
+    "forecast_saved": "2026-10-15",
+    "delivery": "2026-10-16",
+    "complete_snapshot_time_Eastern": "11:01, after B auction at 11:00",
+    "repricing": "Use exact target DA blocks and executable prices/quantity before entry."
+  },
+  "findings": [
+    {
+      "gate": "A",
+      "question": "Regional load versus binding",
+      "slides": "9",
+      "result": "Wider PJM demand is 2.52 GW higher in comparable binding hours; local BC demand is only 0.11 GW higher. PJM, BC, MIDATL and DOM stay separate because their footprints overlap."
+    },
+    {
+      "gate": "A",
+      "question": "Solar levels and ramps",
+      "slides": "10",
+      "result": "Solar level and one-/three-hour changes have small differences whose week ranges include zero. Evening timing does not establish a sunset cause."
+    },
+    {
+      "gate": "A",
+      "question": "Wind output and direction",
+      "slides": "10, 13",
+      "result": "WEST wind is about 359 MW lower in comparable binding hours. Less remote wind could require replacement supply. Candidate pressure is delivery into Baltimore; the anonymous line's signed flow is unknown."
+    },
+    {
+      "gate": "A",
+      "question": "Running generation mix",
+      "slides": "11",
+      "result": "Gas and coal output rise; nuclear changes little. The chart shows actual output and shares. This can be a response to tight conditions, rather than proof of a missing nearby plant."
+    },
+    {
+      "gate": "A",
+      "question": "Named prices during binding versus nonbinding",
+      "slides": "12",
+      "result": "BGE_RESID_AGG minus WESTERN HUB is higher in comparable binding hours, in both total prices and congestion. The chart keeps day-before and delivery prices separate. Contractual BGE Zone is a distinct index."
+    },
+    {
+      "gate": "A",
+      "question": "When does it bind?",
+      "slides": "8",
+      "result": "Evening labels stand out. In January\u2013August 2026, label 20 contains binding in 57.4% of eligible hours; summer is higher than winter. Weekday/weekend and yearly patterns are shown."
+    },
+    {
+      "gate": "A",
+      "question": "What drives the flow, and in which direction?",
+      "slides": "1, 13",
+      "result": "Demand relative to local supply and delivery can make Baltimore more expensive and create pressure to deliver power into the area. The June comparison and continued Brandon Shores output defeat simple demand-growth and plant-disappearance claims."
+    },
+    {
+      "gate": "A",
+      "question": "Confidence and what would change the view",
+      "slides": "15",
+      "result": "Observed patterns have moderate support; the hidden cause and branch direction have low confidence. At similar demand, easier delivery without a narrower premium would weaken the explanation."
+    },
+    {
+      "gate": "A",
+      "question": "What forward signal would you watch?",
+      "slides": "15, 32\u201333",
+      "result": "Issued local and wider demand, solar changes, wind, nearby plant supply and delivery capability. These are a combined watchlist, without reliable advance binding odds."
+    },
+    {
+      "gate": "B",
+      "question": "Regional load versus binding",
+      "slides": "17",
+      "result": "DOM demand is about 0.42 GW higher and PJM demand 3.78 GW higher in comparable binding hours. MIDATL is also shown; the overlapping regions are not added."
+    },
+    {
+      "gate": "B",
+      "question": "Solar levels and ramps",
+      "slides": "18",
+      "result": "SOUTH solar is about 413 MW higher. The three-hour change is 105 MW more positive; the one-hour change is near zero. A nighttime record shows that solar is not necessary."
+    },
+    {
+      "gate": "B",
+      "question": "Wind output and direction",
+      "slides": "18, 22",
+      "result": "WEST wind is about 409 MW higher; the SOUTH wind difference is uncertain. Added supply can change where power enters and which plants run. Its signed effect on B remains unknown. Candidate pressure is delivery into the expensive Richmond-area pocket."
+    },
+    {
+      "gate": "B",
+      "question": "Running generation mix",
+      "slides": "19",
+      "result": "Gas output rises; coal and nuclear differences are uncertain. Actual fuel levels and shares are shown, with whole-PJM output kept separate from local availability."
+    },
+    {
+      "gate": "B",
+      "question": "Named prices during binding versus nonbinding",
+      "slides": "20\u201321",
+      "result": "DOM_RESID_AGG minus DOMINION HUB has a local premium. ACCA, BASIN and BELLWOOD retain larger RT congestion premiums in similar-solar/demand comparisons. A local premium does not establish a regional hub trade."
+    },
+    {
+      "gate": "B",
+      "question": "When does it bind?",
+      "slides": "16",
+      "result": "Mainly labels 10\u201315; labels 11/12 each reach 12.4% in January\u2013August 2026. The spring pattern is much weaker in 2026 than 2025. Day-of-week and seasonal differences are shown."
+    },
+    {
+      "gate": "B",
+      "question": "What drives the flow, and in which direction?",
+      "slides": "1, 18, 22",
+      "result": "Solar, demand and plant dispatch can change access to the local pocket. Delivery into Richmond can tighten or ease. Solar may stress one transfer or replace a plant that had eased it; anonymous equipment prevents a signed branch claim."
+    },
+    {
+      "gate": "B",
+      "question": "Confidence and what would change the view",
+      "slides": "23",
+      "result": "The local price pattern has support, but comparable-hour coverage is limited, especially in March. A clock correction that removes it, or measured flows opposing the candidate direction, would weaken the explanation."
+    },
+    {
+      "gate": "B",
+      "question": "What forward signal would you watch?",
+      "slides": "23, 32\u201333",
+      "result": "Issued SOUTH solar and hourly changes, DOM/MIDATL demand, WEST wind, local plant supply and delivery. Later day-before bus prices can update an intraday view, but cannot inform an earlier auction bid."
+    },
+    {
+      "gate": "C",
+      "question": "Regional load versus binding",
+      "slides": "25",
+      "result": "MIDATL demand is about 1.24 GW higher. The local ComEd difference is small and uncertain, so low local demand is not required. PJM demand is also shown."
+    },
+    {
+      "gate": "C",
+      "question": "Solar levels and ramps",
+      "slides": "26",
+      "result": "Solar level and the one-hour change are uncertain; the three-hour change is about 40 MW more negative. Solar is a secondary input beside wind and remote demand."
+    },
+    {
+      "gate": "C",
+      "question": "Wind output and direction",
+      "slides": "26, 29\u201330",
+      "result": "WEST wind is about 788 MW higher in comparable binding hours. Measured Chicago ground wind and WEST electrical wind output move together across 967 daily blocks. Wind-rich supply can create outward delivery pressure, without measuring ComEd exports."
+    },
+    {
+      "gate": "C",
+      "question": "Running generation mix",
+      "slides": "27",
+      "result": "The chart shows actual gas, nuclear, coal and other output and shares. The fuel-output differences are uncertain; they do not identify local available capacity."
+    },
+    {
+      "gate": "C",
+      "question": "Named prices during binding versus nonbinding",
+      "slides": "28",
+      "result": "COMED_RESID_AGG minus WESTERN HUB is more negative in comparable binding hours in DA/RT total prices and congestion. The proposed contract uses NI Hub, so its price and payment are kept distinct from the historical ComEd chart."
+    },
+    {
+      "gate": "C",
+      "question": "When does it bind?",
+      "slides": "24",
+      "result": "Mainly before dawn, particularly labels 04\u201307. January\u2013August 2026 shows more winter than summer binding; summer led in 2024. The pattern changes by year."
+    },
+    {
+      "gate": "C",
+      "question": "What drives the flow, and in which direction?",
+      "slides": "1, 26, 30",
+      "result": "Western wind supply with demand elsewhere fits pressure to deliver power out of the Chicago area. If delivery is tight, local power can remain cheaper than Western Hub. Mild weather helps limit cooling demand, while strong wind supports supply."
+    },
+    {
+      "gate": "C",
+      "question": "Confidence and what would change the view",
+      "slides": "31",
+      "result": "The wind/demand/discount pattern has moderate support, but the line, signed flow and cause remain unknown. Wind easing the identified limit, or easier delivery without a narrower discount, would weaken the explanation."
+    },
+    {
+      "gate": "C",
+      "question": "What forward signal would you watch?",
+      "slides": "31\u201333",
+      "result": "Forecast WEST wind, MIDATL and ComEd demand, and outward delivery capability. Whole-PJM wind and a station's ground wind support the weather context but do not locate all supply behind C."
+    }
+  ],
+  "cleaning": {
+    "source_rows": 2089376,
+    "rows_removed": 0,
+    "measured_numeric_values_changed": 0,
+    "duplicate_keys": 0,
+    "null_key_cells": 0,
+    "negative_solar_readings_retained": 42997,
+    "negative_supplied_RT_prices_retained": 6326,
+    "hour_alignment": "Only load and supplied price hour-ending labels 1\u201324 shift to hour starts 0\u201323. Fuel, constraints, solar and wind already 0\u201323. Join hour AND entity; exclude five clock-change dates from source-label comparisons.",
+    "constraint_panel_rows": 10732,
+    "binding_records_after_clock_date_exclusions": 10690,
+    "missing_values": "Keep gaps, extremes, absent shadows and overlapping footprints separate.",
+    "summary": "Cleaning checked all six source files and kept all 2,089,376 rows. No numeric measurement changed; zero rows were removed. The constraint panel retains 10,732 source rows; 10,690 remain after clock-date exclusions."
+  },
+  "weather": [
+    {
+      "gate": "A",
+      "hot_minus_mild_local_demand_GW": 0.976569,
+      "supported_hot_days": "72/172",
+      "forecast_block_temperature_F": "mean 72.5; maximum 82",
+      "interpretation": "Warmth can raise cooling demand. MIDATL demand rises 29.107 to 31.790 GW from 14:00 to 18:00 while PJM utility solar falls 8.028611 to 0.453864 GW. Different footprints cannot form a local balance. Tight delivery can raise BGE Zone relative to Western; more local supply/easier delivery can shrink it."
+    },
+    {
+      "gate": "B",
+      "hot_minus_mild_local_demand_GW": 1.777401,
+      "supported_hot_days": "93/254",
+      "forecast_block_temperature_F": "mean 81.2; maximum 88",
+      "interpretation": "Heat raises demand and solar changes supply locations. Expected weather may already be in DA prices. Bid payment depends on RT difference minus DA difference on accepted hours. Estimate \u2212$1.29 is below +$10 rule: no bid."
+    },
+    {
+      "gate": "C",
+      "hot_minus_mild_local_demand_GW": 2.273328,
+      "supported_hot_days": "32/34",
+      "forecast_block_temperature_F": "mean 57.3; maximum 62",
+      "wind_supply_link": "967 daily blocks: Chicago ground wind and WEST wind output have a raw rank correlation +0.754, calendar-adjusted +0.698; positive in all 3 years. Whole-PJM current wind forecast does not establish WEST output behind C.",
+      "forecast_errors": "PJM demand forecasts already use weather. C RMSE 65.27 to 51.44 dollars/MWh when issued weather enters before demand; 53.33 to 51.72 after demand. July\u2013August failure remains. A/B gains are small or uncertain.",
+      "interpretation": "Cool windy weather can support a Chicago discount if outward delivery is tight. Low local demand is unnecessary. Wind-only shadow-severity failed its benchmark; this was not a price-model test."
+    }
+  ],
+  "teaching_cash_examples": {
+    "A": {
+      "mwh": 80,
+      "entry": 17,
+      "cost": 3,
+      "final": [
+        9,
+        20,
+        25
+      ],
+      "net": [
+        -880,
+        0,
+        400
+      ]
+    },
+    "B": {
+      "selected_mwh": 6,
+      "DA": [
+        5,
+        5,
+        5
+      ],
+      "RT": [
+        0,
+        5,
+        15
+      ],
+      "gross": [
+        -30,
+        0,
+        60
+      ],
+      "fees_included": false
+    },
+    "C": {
+      "mwh": 50,
+      "entry": -5,
+      "cost": 3,
+      "final": [
+        -13,
+        -8,
+        5
+      ],
+      "net": [
+        250,
+        0,
+        -650
+      ]
+    }
+  },
+  "conditional_prices": {
+    "A": {
+      "buy_BGE_Zone_minus_Western_maximum_dollars_per_MWh": 17.1,
+      "dated_mean": 25.13579,
+      "matched_MWh": 80,
+      "cash_example": 31548
+    },
+    "B": {
+      "dated_RT_minus_DA_mean": -1.29,
+      "decision": "no bid"
+    },
+    "C": {
+      "sell_NI_minus_Western_minimum_dollars_per_MWh": -4.85,
+      "dated_mean": -12.87706,
+      "matched_MWh": 50,
+      "cash_example": 9334.5
+    },
+    "assumptions": "A/C costs $3/MWh and chosen $5/MWh mean-error allowance. Cash examples combine indicative margin with a chosen reserve, not maximum losses. Live prices remain missing."
+  }
+}

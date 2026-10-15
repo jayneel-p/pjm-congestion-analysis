@@ -1,0 +1,10 @@
+{
+  "scope": "External frozen visible slide content only. Source measurements stay outside Git. Native PPTX is editable without the runtime.",
+  "files": [
+    {
+      "name": "deck_content.json",
+      "bytes": 159009,
+      "sha256": "a33aad1f87499249d453024a5a4b721863928ce629b03fe4a516ce9cdd70d234"
+    }
+  ]
+}

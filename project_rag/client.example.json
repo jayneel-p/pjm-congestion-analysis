@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "pjm-project-knowledge": {
+      "command": "/ABSOLUTE/PROJECT/project_rag/.venv/bin/project-rag",
+      "args": ["serve", "--root", "/ABSOLUTE/PROJECT"],
+      "env": {}
+    }
+  }
+}
